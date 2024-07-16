@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+input {
+  margin-left: 0.5em;
+}
+
+button {
+  margin-top: 1em;
+}
