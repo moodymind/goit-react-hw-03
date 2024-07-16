@@ -36,12 +36,12 @@ export const ContactForm = ({ onAddContact }) => {
           <label>
             Name
             <Field type="text" name="name" />
-            <ErrorMessage name="name" component="div" />
+            <ErrorMessage name="name" component="div" className="error" />
           </label>
           <label>
             Number
             <Field type="text" name="number" />
-            <ErrorMessage name="number" component="div" />
+            <ErrorMessage name="number" component="div" className="error" />
           </label>
           <button type="submit">Add Contact</button>
         </Form>

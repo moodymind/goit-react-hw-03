@@ -3,7 +3,9 @@ import React from "react";
 export const Contact = ({ contact, onDeleteContact }) => {
   return (
     <li>
-      {contact.name}: {contact.number}
+      <span>
+        {contact.name}: {contact.number}
+      </span>
       <button onClick={() => onDeleteContact(contact.id)}>Delete</button>
     </li>
   );
